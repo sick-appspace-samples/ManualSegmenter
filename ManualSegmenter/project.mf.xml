@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest>
     <application name="ManualSegmenter">
         <crown name="ManualSegmenter">
@@ -7,23 +7,9 @@
         </crown>
         <meta key="author">AppSpace Sample</meta>
         <meta key="version">1.5</meta>
-        <meta key="licensed">false</meta>
         <meta key="priority">low</meta>
         <meta key="copy-protected">false</meta>
         <meta key="read-protected">false</meta>
-        <entry path="pages" default="AppSpaceViewers-2.5.0.0.msdd">
-            <file type="application/zip">AppSpaceViewers-2.5.0.0.msdd</file>
-        </entry>
-        <entry path="resources">
-            <file type="image">gulasch_label_1.bmp</file>
-            <file type="image">gulasch_label_2.bmp</file>
-            <file type="image">gulasch_label_3.bmp</file>
-            <file type="image">gulasch_label_4.bmp</file>
-            <file type="image">gulasch_label_5.bmp</file>
-            <file type="image">gulasch_label_6.bmp</file>
-        </entry>
-        <entry path="scripts" default="ManualSegmenter.lua">
-            <file type="text/x-lua">ManualSegmenter.lua</file>
-        </entry>
+        <entry default="ManualSegmenter.lua" path="scripts"/>
     </application>
 </manifest>
