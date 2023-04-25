@@ -5,15 +5,12 @@ print('AppEngine Version: ' .. Engine.getVersion())
 local DELAY = 100
 
 -- Creating viewer
-local viewer = View.create('viewer2D1')
+local viewer = View.create()
 
 -- Setting up graphical overlay attributes
 local decoration = View.ShapeDecoration.create()
-decoration:setLineColor(0, 255, 0)
-decoration:setLineWidth(3)
-local charDeco = View.TextDecoration.create()
-charDeco:setSize(60)
-charDeco:setColor(0, 255, 0)
+decoration:setLineColor(0, 255, 0):setLineWidth(3)
+local charDeco = View.TextDecoration.create():setSize(60):setColor(0, 255, 0)
 
 -- Creating and setting up an OCR segmenter
 local segmenter = Image.OCR.Halcon.ManualSegmenter.create()

@@ -1,12 +1,19 @@
 ## ManualSegmenter
+
 Reading the "Best before date" on a food package, using API integrated
 HALCON ManualSegmenter.
 
 ### Description
+
+Disclaimer: this sample will run only on physical AppSpace enabled device such as
+InspectorP or SIM or with Software AppEngine when a valid HALCON license is
+installed and available.
+
 HALCON ManualSegmenter provides a precise way to read text with known
 characteristics. All known text characteristics can be entered as parameters.
 
 ### How to Run
+
 Starting this sample is possible either by running the app (F5) or
 debugging (F7+F10). Setting breakpoint on the first row inside the 'main'
 function allows debugging step-by-step after 'Engine.OnStarted' event.
@@ -18,7 +25,9 @@ Alternatively the Emulator in AppStudio 2.3 or higher can be used in conjunction
 with a HALCON developer license and dongle.
 
 ### More Information
+
 Tutorial "Algorithms - OCR"
 
 ### Topics
-Algorithm, Image-2D, OCR, Sample, SICK-AppSpace
+
+algorithm, image-2d, ocr, sample, sick-appspace, halcon
